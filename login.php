@@ -18,7 +18,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="assets/index2.html"><b>GIGUDANG</b></a>
+    <a href="assets/index2.html"><b>SIGUDANG</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -28,7 +28,7 @@
                 if(isset($_GET['pesan'])){
                   $pesan = $_GET['pesan'];
                   if($pesan == "logout"){
-                    echo '<div class="alert alert-success text-center mb-4"  role="alert"> Data Berhasil Log Out</div>';
+                    echo '<div class="alert alert-success text-center mb-4"  role="alert"> Anda Berhasil Log Out</div>';
                   }else if($pesan == "gagal"){
                     echo '<div class="alert alert-danger text-center mb-4"  role="alert"> Username dan Password salah!</div>';
                   }
@@ -78,4 +78,3 @@
 <script src="assets/dist/js/adminlte.min.js"></script>
 </body>
 </html>
-v
